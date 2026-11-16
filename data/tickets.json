@@ -1,0 +1,562 @@
+[
+  {
+    "text": "Esqueci minha senha e não consigo entrar",
+    "label": "acesso",
+    "group": "acesso-0",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Preciso redefinir a senha da conta",
+    "label": "acesso",
+    "group": "acesso-0",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Minha conta foi bloqueada após várias tentativas",
+    "label": "acesso",
+    "group": "acesso-1",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O sistema bloqueou meu usuário",
+    "label": "acesso",
+    "group": "acesso-1",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O código do autenticador não funciona",
+    "label": "acesso",
+    "group": "acesso-2",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Meu token de dois fatores é recusado",
+    "label": "acesso",
+    "group": "acesso-2",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Não recebi o e-mail para recuperar acesso",
+    "label": "acesso",
+    "group": "acesso-3",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A mensagem de recuperação não chega",
+    "label": "acesso",
+    "group": "acesso-3",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Preciso de permissão para abrir uma pasta",
+    "label": "acesso",
+    "group": "acesso-4",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Meu perfil não tem acesso ao diretório",
+    "label": "acesso",
+    "group": "acesso-4",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O login funciona no navegador mas falha no aplicativo",
+    "label": "acesso",
+    "group": "acesso-5",
+    "split": "validation",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A autenticação do aplicativo é rejeitada",
+    "label": "acesso",
+    "group": "acesso-5",
+    "split": "validation",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Meu usuário foi desativado após trocar de equipe",
+    "label": "acesso",
+    "group": "acesso-6",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A conta aparece como inativa",
+    "label": "acesso",
+    "group": "acesso-6",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O link de ativação expirou",
+    "label": "acesso",
+    "group": "acesso-7",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Não consigo concluir o cadastro porque o convite venceu",
+    "label": "acesso",
+    "group": "acesso-7",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A internet cai a cada cinco minutos",
+    "label": "rede",
+    "group": "rede-0",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A conexão com a internet fica instável",
+    "label": "rede",
+    "group": "rede-0",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O Wi-Fi não aparece na lista de redes",
+    "label": "rede",
+    "group": "rede-1",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Não encontro a rede sem fio",
+    "label": "rede",
+    "group": "rede-1",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A VPN desconecta durante o trabalho",
+    "label": "rede",
+    "group": "rede-2",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Minha conexão remota pela VPN cai",
+    "label": "rede",
+    "group": "rede-2",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O cabo de rede está conectado mas não há internet",
+    "label": "rede",
+    "group": "rede-3",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O computador não reconhece a conexão por cabo",
+    "label": "rede",
+    "group": "rede-3",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Os sites demoram muito para carregar",
+    "label": "rede",
+    "group": "rede-4",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Navegar está lento em todos os sites",
+    "label": "rede",
+    "group": "rede-4",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O DNS não resolve os nomes dos sites",
+    "label": "rede",
+    "group": "rede-5",
+    "split": "validation",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Recebo erro de resolução de nome",
+    "label": "rede",
+    "group": "rede-5",
+    "split": "validation",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Consigo acessar a rede interna mas não sites externos",
+    "label": "rede",
+    "group": "rede-6",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Só a intranet funciona nesta máquina",
+    "label": "rede",
+    "group": "rede-6",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A chamada de vídeo trava quando uso Wi-Fi",
+    "label": "rede",
+    "group": "rede-7",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A videoconferência fica cortando na rede sem fio",
+    "label": "rede",
+    "group": "rede-7",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O Excel fecha quando abro a planilha",
+    "label": "software",
+    "group": "software-0",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A planilha faz o Excel encerrar",
+    "label": "software",
+    "group": "software-0",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Preciso instalar o editor de código",
+    "label": "software",
+    "group": "software-1",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Solicito a instalação do ambiente de desenvolvimento",
+    "label": "software",
+    "group": "software-1",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A atualização do aplicativo falha",
+    "label": "software",
+    "group": "software-2",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O instalador da atualização retorna erro",
+    "label": "software",
+    "group": "software-2",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O aplicativo abre uma tela branca",
+    "label": "software",
+    "group": "software-3",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O programa inicia sem exibir conteúdo",
+    "label": "software",
+    "group": "software-3",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A extensão do navegador parou de funcionar",
+    "label": "software",
+    "group": "software-4",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O complemento desapareceu após atualizar",
+    "label": "software",
+    "group": "software-4",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O sistema mostra erro ao exportar PDF",
+    "label": "software",
+    "group": "software-5",
+    "split": "validation",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A exportação do relatório trava o programa",
+    "label": "software",
+    "group": "software-5",
+    "split": "validation",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O navegador consome toda a memória",
+    "label": "software",
+    "group": "software-6",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O Chrome usa muita RAM e deixa o PC lento",
+    "label": "software",
+    "group": "software-6",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A licença do programa expirou",
+    "label": "software",
+    "group": "software-7",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O software pede renovação da licença",
+    "label": "software",
+    "group": "software-7",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A tela do notebook está piscando",
+    "label": "hardware",
+    "group": "hardware-0",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O monitor apresenta cintilação",
+    "label": "hardware",
+    "group": "hardware-0",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O teclado não reconhece algumas teclas",
+    "label": "hardware",
+    "group": "hardware-1",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Várias teclas deixaram de responder",
+    "label": "hardware",
+    "group": "hardware-1",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A bateria descarrega em poucos minutos",
+    "label": "hardware",
+    "group": "hardware-2",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O notebook não segura carga",
+    "label": "hardware",
+    "group": "hardware-2",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A impressora puxa duas folhas de uma vez",
+    "label": "hardware",
+    "group": "hardware-3",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O papel fica preso na impressora",
+    "label": "hardware",
+    "group": "hardware-3",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O mouse não movimenta o cursor",
+    "label": "hardware",
+    "group": "hardware-4",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O sensor do mouse parou",
+    "label": "hardware",
+    "group": "hardware-4",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O computador não liga mesmo na tomada",
+    "label": "hardware",
+    "group": "hardware-5",
+    "split": "validation",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A máquina não acende nenhuma luz",
+    "label": "hardware",
+    "group": "hardware-5",
+    "split": "validation",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O cooler faz um barulho muito alto",
+    "label": "hardware",
+    "group": "hardware-6",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A ventoinha parece raspar dentro do notebook",
+    "label": "hardware",
+    "group": "hardware-6",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A porta USB não reconhece dispositivos",
+    "label": "hardware",
+    "group": "hardware-7",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Nenhum pendrive funciona nessa porta",
+    "label": "hardware",
+    "group": "hardware-7",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O relatório tem linhas duplicadas",
+    "label": "dados",
+    "group": "dados-0",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Existem registros repetidos no dashboard",
+    "label": "dados",
+    "group": "dados-0",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A atualização do Power BI não termina",
+    "label": "dados",
+    "group": "dados-1",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O conjunto de dados falha ao atualizar",
+    "label": "dados",
+    "group": "dados-1",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O total do painel difere da planilha",
+    "label": "dados",
+    "group": "dados-2",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Os valores do dashboard não batem com a fonte",
+    "label": "dados",
+    "group": "dados-2",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Uma coluna mudou de nome e quebrou a carga",
+    "label": "dados",
+    "group": "dados-3",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A ingestão falha após mudança do esquema",
+    "label": "dados",
+    "group": "dados-3",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O arquivo CSV chega com datas inválidas",
+    "label": "dados",
+    "group": "dados-4",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "As datas importadas estão em formato incorreto",
+    "label": "dados",
+    "group": "dados-4",
+    "split": "train",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O pipeline trouxe campos nulos",
+    "label": "dados",
+    "group": "dados-5",
+    "split": "validation",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A tabela foi carregada com valores vazios",
+    "label": "dados",
+    "group": "dados-5",
+    "split": "validation",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "O relacionamento entre tabelas multiplica valores",
+    "label": "dados",
+    "group": "dados-6",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A junção está inflando as somas",
+    "label": "dados",
+    "group": "dados-6",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "A consulta SQL deixou de retornar dados de ontem",
+    "label": "dados",
+    "group": "dados-7",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  },
+  {
+    "text": "Faltam registros recentes na consulta",
+    "label": "dados",
+    "group": "dados-7",
+    "split": "test",
+    "source": "synthetic_authored_with_ai"
+  }
+]

@@ -1,0 +1,206 @@
+{
+  "source": "80 mensagens sintéticas, 40 cenários",
+  "split_counts": {
+    "train": 50,
+    "validation": 10,
+    "test": 20
+  },
+  "selection": "macro-F1 na validação; modelo mantido com treino original",
+  "validation_macro_f1": {
+    "majority": 0.06666666666666667,
+    "word_tfidf": 0.18,
+    "char_tfidf": 0.26
+  },
+  "selected": "char_tfidf",
+  "test_report": {
+    "acesso": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 4.0
+    },
+    "dados": {
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1-score": 0.75,
+      "support": 4.0
+    },
+    "hardware": {
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1-score": 0.3333333333333333,
+      "support": 4.0
+    },
+    "rede": {
+      "precision": 0.42857142857142855,
+      "recall": 0.75,
+      "f1-score": 0.5454545454545454,
+      "support": 4.0
+    },
+    "software": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1-score": 0.5714285714285714,
+      "support": 4.0
+    },
+    "accuracy": 0.55,
+    "macro avg": {
+      "precision": 0.569047619047619,
+      "recall": 0.55,
+      "f1-score": 0.54004329004329,
+      "support": 20.0
+    },
+    "weighted avg": {
+      "precision": 0.569047619047619,
+      "recall": 0.55,
+      "f1-score": 0.54004329004329,
+      "support": 20.0
+    }
+  },
+  "labels": [
+    "acesso",
+    "dados",
+    "hardware",
+    "rede",
+    "software"
+  ],
+  "confusion_matrix": [
+    [
+      2,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      3,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      2
+    ]
+  ],
+  "predictions": [
+    {
+      "text": "Meu usuário foi desativado após trocar de equipe",
+      "expected": "acesso",
+      "predicted": "acesso"
+    },
+    {
+      "text": "A conta aparece como inativa",
+      "expected": "acesso",
+      "predicted": "rede"
+    },
+    {
+      "text": "O link de ativação expirou",
+      "expected": "acesso",
+      "predicted": "software"
+    },
+    {
+      "text": "Não consigo concluir o cadastro porque o convite venceu",
+      "expected": "acesso",
+      "predicted": "acesso"
+    },
+    {
+      "text": "Consigo acessar a rede interna mas não sites externos",
+      "expected": "rede",
+      "predicted": "rede"
+    },
+    {
+      "text": "Só a intranet funciona nesta máquina",
+      "expected": "rede",
+      "predicted": "acesso"
+    },
+    {
+      "text": "A chamada de vídeo trava quando uso Wi-Fi",
+      "expected": "rede",
+      "predicted": "rede"
+    },
+    {
+      "text": "A videoconferência fica cortando na rede sem fio",
+      "expected": "rede",
+      "predicted": "rede"
+    },
+    {
+      "text": "O navegador consome toda a memória",
+      "expected": "software",
+      "predicted": "software"
+    },
+    {
+      "text": "O Chrome usa muita RAM e deixa o PC lento",
+      "expected": "software",
+      "predicted": "rede"
+    },
+    {
+      "text": "A licença do programa expirou",
+      "expected": "software",
+      "predicted": "software"
+    },
+    {
+      "text": "O software pede renovação da licença",
+      "expected": "software",
+      "predicted": "dados"
+    },
+    {
+      "text": "O cooler faz um barulho muito alto",
+      "expected": "hardware",
+      "predicted": "rede"
+    },
+    {
+      "text": "A ventoinha parece raspar dentro do notebook",
+      "expected": "hardware",
+      "predicted": "hardware"
+    },
+    {
+      "text": "A porta USB não reconhece dispositivos",
+      "expected": "hardware",
+      "predicted": "rede"
+    },
+    {
+      "text": "Nenhum pendrive funciona nessa porta",
+      "expected": "hardware",
+      "predicted": "acesso"
+    },
+    {
+      "text": "O relacionamento entre tabelas multiplica valores",
+      "expected": "dados",
+      "predicted": "dados"
+    },
+    {
+      "text": "A junção está inflando as somas",
+      "expected": "dados",
+      "predicted": "hardware"
+    },
+    {
+      "text": "A consulta SQL deixou de retornar dados de ontem",
+      "expected": "dados",
+      "predicted": "dados"
+    },
+    {
+      "text": "Faltam registros recentes na consulta",
+      "expected": "dados",
+      "predicted": "dados"
+    }
+  ]
+}
